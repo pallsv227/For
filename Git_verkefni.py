@@ -4,3 +4,7 @@ tala_1 = int(input("sláðu inn eina tölu: "))
 tala_2 = int(input("sláðu inn aðra tölu: "))
 svar = ((tala_1)+(tala_2))
 print ("útkoman af þessum tölum er ", svar)
+#dæmi 2
+fornafn = input("sláðu inn fornafnið þitt: ")
+eftirnafn = input("sláðu inn eftirnafnið þitt: ")
+print ("halló", fornafn, eftirnafn)
