@@ -8,3 +8,6 @@ print ("útkoman af þessum tölum er ", svar)
 fornafn = input("sláðu inn fornafnið þitt: ")
 eftirnafn = input("sláðu inn eftirnafnið þitt: ")
 print ("halló", fornafn, eftirnafn)
+#dæmi 3
+texti = str(input("sláðu inn texta: "))
+print ("í þessum texta eru",(sum(1 for c in texti if c.isupper())), "Hástafir og", sum(1 for c in texti if c.islower()), "lágstafir")
